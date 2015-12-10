@@ -8,7 +8,7 @@ power2007feb$DateTime <- strptime(paste(power2007feb$Date, power2007feb$Time), "
 
 power2007feb$Date <- as.Date(power2007feb$Date, "%d/%m/%Y")
 
-png ("plot1.png", width = 480, height = 480, units = "px", bg = "white")
+png ("plot1.png", width = 480, height = 480, units = "px", bg = "grey")
 
 hist(power2007feb$Global_active_power, col = "Red", xlab = "Global Active Power (Kilowatts)", main = "Global Active Power")
 
